@@ -23,3 +23,9 @@ O CipherVault utiliza uma estrutura modular para ter facilidade de manutenção:
 * `config.json`: Armazena o hash da senha-mestra.
 * `chave.key`: Chave física necessária para descriptografar o cofre.
 * `vault.crypt`: O cofre criptografado (ilegível sem a chave).
+
+## Como Instalar
+Este guia assume que você já tem o Python 3.10 ou superior instalado.
+* **1. Preparos:** Abra o Terminal de acordo com seu sistema operacional e cole: pip install cryptography rich
+* **2. Baixar:** Existem duas formas de obter os arquivos: Via Git: git clone https://github.com/sawamur123/CipherVaultt.git e via ZIP: Clique no botão verde "Code" no GitHub e selecione "Download ZIP". Extraia os arquivos em uma pasta.
+* **3. Roda:** Clique no arquivo "main" da sua pasta já extraida e com o botão direito selecione "Abrir com o Terminal", então digite o código "python main.py" para iniciar.
